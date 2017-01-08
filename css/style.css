@@ -1,0 +1,57 @@
+/*CSS Document*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+    height: 960px;
+    background-color: #89df61;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contentCenter{
+    margin: auto;
+    width: 960px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+/*---Header panel---*/
+
+.headerLogin{
+    width: 1200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+.headerSearch{
+    width: 1200px;
+    background-color: white;
+    display: flex;
+}
+.headerMenu{
+    width: 1200px;
+    background-color: red;
+    display: flex;
+}
+.headerContent{
+    
+}
+/*---- Main ---*/
+.contentOrder{
+    background-color: #3a4246;
+    display: flex;
+}
+.contentClothing{
+    background-color: #1599a7;
+    display: flex;
+}
